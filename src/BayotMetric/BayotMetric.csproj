@@ -22,7 +22,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>https://raw.githubusercontent.com/cr4papps/bayotmetric/develop/src/BayotMetric/publish/</InstallUrl>
     <UpdateUrl>https://raw.githubusercontent.com/cr4papps/bayotmetric/develop/src/BayotMetric/publish/</UpdateUrl>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>0.1.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
