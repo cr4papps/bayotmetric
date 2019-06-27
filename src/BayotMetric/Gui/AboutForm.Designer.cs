@@ -36,12 +36,16 @@ namespace BayotMetric.Gui
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.SuspendLayout();
 			// 
 			// AboutForm
 			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.Text = "AboutForm";
+			this.ClientSize = new System.Drawing.Size(284, 261);
 			this.Name = "AboutForm";
+			this.Text = "About";
+			this.ResumeLayout(false);
 		}
 	}
 }

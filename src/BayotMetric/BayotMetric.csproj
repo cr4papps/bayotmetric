@@ -80,20 +80,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Gui\AboutForm.cs" />
+    <Compile Include="Gui\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Gui\AboutForm.Designer.cs">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gui\UserForm.cs" />
+    <Compile Include="Gui\UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Gui\UserForm.Designer.cs">
       <DependentUpon>UserForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gui\UserListForm.cs" />
+    <Compile Include="Gui\UserListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Gui\UserListForm.Designer.cs">
       <DependentUpon>UserListForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Helpers\ConvertHelper.cs" />
-    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
@@ -108,6 +116,9 @@
     <None Include="BayotMetric_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Gui\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gui\UserForm.resx">
       <DependentUpon>UserForm.cs</DependentUpon>
     </EmbeddedResource>

@@ -51,7 +51,7 @@ namespace BayotMetric.Gui
 									this.columnHeader2});
 			this.listView1.Location = new System.Drawing.Point(8, 8);
 			this.listView1.Name = "listView1";
-			this.listView1.Size = new System.Drawing.Size(216, 184);
+			this.listView1.Size = new System.Drawing.Size(264, 184);
 			this.listView1.TabIndex = 0;
 			this.listView1.UseCompatibleStateImageBehavior = false;
 			this.listView1.View = System.Windows.Forms.View.Details;
@@ -66,7 +66,7 @@ namespace BayotMetric.Gui
 			// 
 			// buttonAddUser
 			// 
-			this.buttonAddUser.Location = new System.Drawing.Point(232, 16);
+			this.buttonAddUser.Location = new System.Drawing.Point(280, 16);
 			this.buttonAddUser.Name = "buttonAddUser";
 			this.buttonAddUser.Size = new System.Drawing.Size(75, 23);
 			this.buttonAddUser.TabIndex = 1;
@@ -76,7 +76,7 @@ namespace BayotMetric.Gui
 			// 
 			// buttonEditUser
 			// 
-			this.buttonEditUser.Location = new System.Drawing.Point(232, 40);
+			this.buttonEditUser.Location = new System.Drawing.Point(280, 40);
 			this.buttonEditUser.Name = "buttonEditUser";
 			this.buttonEditUser.Size = new System.Drawing.Size(75, 23);
 			this.buttonEditUser.TabIndex = 2;
@@ -86,7 +86,7 @@ namespace BayotMetric.Gui
 			// 
 			// buttonDeleteUser
 			// 
-			this.buttonDeleteUser.Location = new System.Drawing.Point(232, 88);
+			this.buttonDeleteUser.Location = new System.Drawing.Point(280, 88);
 			this.buttonDeleteUser.Name = "buttonDeleteUser";
 			this.buttonDeleteUser.Size = new System.Drawing.Size(75, 23);
 			this.buttonDeleteUser.TabIndex = 3;
@@ -97,7 +97,7 @@ namespace BayotMetric.Gui
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(454, 261);
+			this.ClientSize = new System.Drawing.Size(413, 226);
 			this.Controls.Add(this.buttonDeleteUser);
 			this.Controls.Add(this.buttonEditUser);
 			this.Controls.Add(this.buttonAddUser);
